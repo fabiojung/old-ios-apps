@@ -1,0 +1,3 @@
+#define INFO_PLIST_BIN
+#define INFO_PLIST_ENTRIES 18
+#define INFO_PLIST_SIZE 744

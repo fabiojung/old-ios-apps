@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/Tarefas/!svn/ver/4/trunk/Interfaces
+END
+RootViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/Tarefas/!svn/ver/4/trunk/Interfaces/RootViewController.xib
+END
+TasksViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/Tarefas/!svn/ver/4/trunk/Interfaces/TasksViewController.xib
+END
+MainWindow.xib
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/Tarefas/!svn/ver/4/trunk/Interfaces/MainWindow.xib
+END

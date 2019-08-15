@@ -1,0 +1,61 @@
+//
+//  anticrack.h
+//
+//  Created by Oliver Drobnik on 12.05.09.
+//  Copyright 2009 Drobnik.com. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+#import "anticrack_scan_result.h"
+
+int main (int argc, char *argv[]);
+
+#pragma mark AntiCrack
+
+static inline int cracked() {
+	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
+	int suspect = 0;
+	NSString *infoPath = [[NSBundle mainBundle] pathForResource:@"Info" ofType:@"plist"];
+	NSData *data = [NSData dataWithContentsOfFile:infoPath];
+	NSString *sourceSt = [[[NSString alloc] initWithBytes:[data bytes] length:8 encoding:NSUTF8StringEncoding] autorelease];
+	NSDictionary *info = [NSDictionary dictionaryWithContentsOfFile:infoPath];
+	
+	
+#ifdef INFO_PLIST_XML	
+	suspect+=([sourceSt isEqualToString:@"<?xml ve"])?0:1;
+#else
+#ifdef INFO_PLIST_BIN
+	suspect+=([sourceSt isEqualToString:@"bplist00"])?0:1; 
+#else
+	NSLog(@"AntiCrack not armed. Build once more to activate.");
+	return 0;
+#endif	
+#endif
+	
+#ifdef INFO_PLIST_SIZE	
+	suspect+=([data length]==INFO_PLIST_SIZE)?0:8;    
+#endif
+	
+#ifdef INFO_PLIST_ENTRIES	
+	suspect += ([info count]==INFO_PLIST_ENTRIES)?0:2;
+#endif
+	NSMutableString *error = [[NSMutableString alloc] init];
+	[error appendString:[NSStringFromClass([NSString class]) substringWithRange:NSMakeRange(1, 1)]];
+	[error appendString:[NSStringFromClass([NSString class]) substringWithRange:NSMakeRange(5, 1)]];
+	[error appendString:[NSStringFromClass([NSString class]) substringWithRange:NSMakeRange(7, 1)]];
+	[error appendString:[NSStringFromClass([NSString class]) substringWithRange:NSMakeRange(6, 1)]];
+	[error appendString:[NSStringFromClass([NSNumber class]) substringWithRange:NSMakeRange(6, 2)]];
+	[error appendString:[NSStringFromClass([NSIndexPath class]) substringWithRange:NSMakeRange(2, 1)]];
+	[error appendString:[NSStringFromClass([NSIndexPath class]) substringWithRange:NSMakeRange(4, 2)]];
+	[error appendString:[NSStringFromClass([NSString class]) substringWithRange:NSMakeRange(6, 1)]];
+	[error appendString:[NSStringFromClass([NSIndexPath class]) substringWithRange:NSMakeRange(9, 1)]];
+	[error appendString:[NSStringFromClass([NSString class]) substringWithRange:NSMakeRange(5, 1)]];
+	[error appendString:[NSStringFromClass([NSIndexPath class]) substringWithRange:NSMakeRange(9, 1)]];
+	[error appendString:[NSStringFromClass([NSArray class]) substringWithRange:NSMakeRange(6, 1)]];
+	
+	suspect+=(![info objectForKey: error])?0:4; 
+	[error release];
+	[pool drain];
+	
+	return suspect;
+}

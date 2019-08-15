@@ -1,0 +1,55 @@
+//
+//  Constants.h
+//  PetsCare
+//
+//  Created by Fabio Leonardo Jung on 21/10/08.
+//  Copyright 2008 iTouchFactory. All rights reserved.
+//
+
+#define LEFT_TAG			10
+#define BORN_TAG			20
+#define BREED_TAG			30
+#define COLOR_TAG			40
+#define GENDER_TAG			50
+#define NAME_TAG			60
+#define TOOLBAR_TAG			70
+#define DATE_PICKER_TAG		80
+#define LABEL_TAG			90
+#define UNIT_TAG			91
+#define WEIGHT_TAG			100
+#define DATE_TAG			200
+#define DONE_TAG			201
+#define EVENT_TAG			300
+#define NEXT_TAG			400
+#define DESC_TAG			500
+#define REGISTRATION_TAG	600
+#define CHIP_TAG			700
+#define NOTES_TAG			800
+#define LABEL_INFO_TAG		900
+#define VET_TAG				1000
+#define REMOVE_ALERT_TAG	1001
+#define ADD_BUTTON_TAG		1002
+#define HEALTH_HEADER_TAG	2000
+#define HEALTH_DESC_TAG		2001
+#define HEALTH_DATELABEL_TAG	2002
+#define HEALTH_DATEVALUE_TAG	2003
+#define HEALTH_NEXTLABEL_TAG	2004
+#define HEALTH_NEXTVALUE_TAG	2005
+#define WEIGHT_LABELW_TAG		2006
+#define WEIGHT_CELL_TAG			2007
+#define WEIGHT_LABELD_TAG		2008
+#define WEIGHT_DATE_TAG			2009
+#define EVENT_LABEL_TAG			2010
+#define EVENT_LABEL_DATE_TAG	2011
+#define EVENT_DATE_TAG			2012
+#define ROOT_NAME_LABEL			2013
+#define ROOT_IMAGEVIEW			2014
+#define EVENT_ISLATE_TAG		2015
+#define CELL_SWITCH_TAG			2016
+#define REPEATS_LABEL_TAG		2017
+#define REPEAT_IMAGE_TAG		2018
+#define IPHONE_CAMERA_ADD_TAG		2020
+#define IPOD_NOCAMERA_ADD_TAG		2030
+#define IPHONE_CAMERA_EDIT_TAG		2040
+#define IPOD_NOCAMERA_EDIT_TAG		2050
+#define DELETE_PHOTO_TAG			2060

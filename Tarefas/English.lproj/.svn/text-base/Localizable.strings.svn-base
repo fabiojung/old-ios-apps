@@ -1,0 +1,113 @@
+/* 
+   Localizable.strings
+   Tarefas
+
+   Created by Fabio Leonardo Jung on 22/08/09.
+   Copyright 2009 iTouchFactory. All rights reserved.
+ */
+"Low_Loc" = "Low Priority";
+"Medium_Loc" = "Medium Priority";
+"High_Loc" = "High Priority";
+"NoPriority_Loc" = "No Priority";
+"Priority_Loc" = "Priority";
+
+"Overdue_Loc" = "Overdue";
+"Today_Loc" = "Today";
+"Tomorrow_Loc" = "Tomorrow";
+"NextSevenDays_Loc" = "Next Seven Days";
+"Future_Loc" = "Future";
+"Yesterday_Loc" = "Yesterday_Loc";
+"NoDueDate_Loc" = "No due date";
+
+"Repeat_Loc" = "Repeat";
+"RepeatTitle_Loc" = "Repeat Task";
+"RepeatFrom_Loc" = "Repeat From";
+"RepeatFreq_Loc" = "Repeat Frequency";
+"DoneDate_Loc" = "Completion Date";
+
+"Daily_Loc" = "Daily";
+"Weekly_Loc" = "Weekly";
+"Monthly_Loc" = "Monthly";
+"3Months_Loc" = "Every three months";
+"6Months_Loc" = "Every six months";
+"Yearly_Loc" = "Yearly";
+
+"DueDate_Loc" = "Due Date";
+"Notes_Loc" = "Notes";
+"None_Loc" = "None";
+"NoDate_Loc" = "No due date";
+"Lists_Loc" = "Lists";
+"List_Loc" = "List";
+
+"AddTask_Loc" = "New Task";
+"NoName_Loc" = "Task field cannot be empty";
+"Task_Loc" = "Task";
+"Mail_Loc" = "Send Task by e-Mail";
+"SendTo_Loc" = "Send Task to:";
+"SendAllTo_Loc" = "Send all Tasks to:";
+"Cancel_Loc" = "Cancel";
+"Config_Loc" = "Settings";
+"Back_Loc" = "Back";
+"Me_Loc" = "My e-Mail";
+"Other_Loc" = "Other e-Mail";
+"subject1" = "Tarefas (ToDo): Task sent to you";
+"subject2" = "Tarefas (ToDo): List of Tasks sent to you";
+"NoEmail_Loc" = "No e-mail address found. Add now?";
+"NoEmailConfig_Loc" = "your_email@domain.com";
+"No_Loc" = "No";
+"Yes_Loc" = "Yes";
+"Delete_Loc" = "Delete";
+
+"AutoDelete_Loc" = "Delete completed Tasks on application exit";
+
+"AutoDel_Loc" = "Auto Delete";
+"Badge_Loc" = "Application Icon";
+"Show_Loc" = "Show";
+
+"version_Loc" = "Version";
+"Done_Loc" = "Done!";
+
+"Sort_Loc" = "Sort Tasks";
+"ByDate_Loc" = "By Due Date";
+"ByPriority_Loc" = "By Priority";
+"ByChar_Loc" = "By Title";
+"Original_Loc" = "No Sort";
+
+"AllTasks_Loc" = "All Active Tasks";
+"Completed_Loc" = "Completed";
+"Completed2_Loc" = "Completed";
+
+"Cat1_Loc" = "Home";
+"Cat2_Loc" = "Work";
+"Cat3_Loc" = "Friends";
+
+"PlusWeek_Loc" = "+Week";
+"PlusMonth_Loc" = "+Month";
+"PlusYear_Loc" = "+Year";
+
+"NoTask_Loc" = "No Tasks";
+"NoTodayTask_Loc" = "No Tasks Due Today";
+"NoOverdueTask_Loc" = "No Overdue Tasks";
+"NoCompletedTask_Loc" = "No Completed Tasks";
+"NoListTask_Loc" = "No Tasks in %@ List";
+
+"NoBadge_Loc" = "No Badge";
+"OverBadge_Loc" = "Overdue";
+"TodayBadge_Loc" = "Today";
+"WeekBadge_Loc" = "Next Seven Days";
+"OverToday_Loc" = "Overdue and Today";
+"OverWeek_Loc" = "Overdue and Next Seven Days";
+"AllActive_Loc" = "All Active";
+
+"Migration_Loc" = "Migrating Tasks from earlier version...";
+
+"NewList_Loc" = "New List";
+"EditList_Loc" = "Edit List";
+"DoneOn_Loc" = "Completed on ";
+
+"AlertTitle_Loc" = "Attention!";
+"AlertMessage_Loc" = "You are using a pirated version of Tarefas. Please visit the App Store to buy authentic version of the application.";
+"AlertButton_Loc" = "Buy Now";
+
+"NoTitle_Loc" = "No title Task";
+"ImportMSG_Loc" = "Please Wait!\nImporting Tasks...";

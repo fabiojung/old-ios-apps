@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/Tarefas/!svn/ver/4/trunk/Helpers
+END
+StringsHelper.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/Tarefas/!svn/ver/4/trunk/Helpers/StringsHelper.h
+END
+Constants.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/Tarefas/!svn/ver/4/trunk/Helpers/Constants.h
+END
+DateHelper.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/Tarefas/!svn/ver/4/trunk/Helpers/DateHelper.h
+END
+StringsHelper.m
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/Tarefas/!svn/ver/4/trunk/Helpers/StringsHelper.m
+END
+ModelHelper.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/Tarefas/!svn/ver/4/trunk/Helpers/ModelHelper.h
+END
+DateHelper.m
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/Tarefas/!svn/ver/9/trunk/Helpers/DateHelper.m
+END
+ModelHelper.m
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/Tarefas/!svn/ver/4/trunk/Helpers/ModelHelper.m
+END

@@ -1,0 +1,113 @@
+/* 
+   Localizable.strings
+   Tarefas
+
+   Created by Fabio Leonardo Jung on 22/08/09.
+   Copyright 2009 iTouchFactory. All rights reserved.
+ */
+"Low_Loc" = "Prioridad Baja";
+"Medium_Loc" = "Prioridad Media";
+"High_Loc" = "Prioridad Alta";
+"NoPriority_Loc" = "Sin Prioridad";
+"Priority_Loc" = "Prioridad";
+
+"Overdue_Loc" = "Vencidas";
+"Today_Loc" = "Hoy";
+"Tomorrow_Loc" = "Mañana";
+"NextSevenDays_Loc" = "Próximos Siete Días";
+"Future_Loc" = "Futuro";
+"Yesterday_Loc" = "Ayer";
+"NoDueDate_Loc" = "Sin Fecha";
+
+"Repeat_Loc" = "Repetir";
+"RepeatTitle_Loc" = "Repetir Tarea";
+"RepeatFrom_Loc" = "Repetir desde";
+"RepeatFreq_Loc" = "Frecuencia";
+"DoneDate_Loc" = "Fecha de Finalización";
+
+"Daily_Loc" = "Diaria";
+"Weekly_Loc" = "Semanal";
+"Monthly_Loc" = "Mensual";
+"3Months_Loc" = "Cada Tres Meses";
+"6Months_Loc" = "Cada Seis Meses";
+"Yearly_Loc" = "Anual";
+
+"DueDate_Loc" = "Fecha";
+"Notes_Loc" = "Notas";
+"None_Loc" = "Ninguna";
+"NoDate_Loc" = "Ninguna";
+"Lists_Loc" = "Listas";
+"List_Loc" = "Lista";
+
+"AddTask_Loc" = "Nueva Tarea";
+"NoName_Loc" = "Ponga un nombre a la Tarea";
+"Task_Loc" = "Tarea";
+"Mail_Loc" = "Enviar Tarea por e-Mail";
+"SendTo_Loc" = "Enviar Tarea para:";
+"SendAllTo_Loc" = "Enviar todas las Tareas para:";
+"Cancel_Loc" = "Cancelar";
+"Config_Loc" = "Configuración";
+"Back_Loc" = "Volver";
+"Me_Loc" = "Mi e-Mail";
+"Other_Loc" = "Otro e-Mail";
+"subject1" = "Tarefas: Tarea enviada para ti";
+"subject2" = "Tarefas: Lista de Tareas enviada para ti";
+"NoEmail_Loc" = "No tiene dirección de e-mail. Colocar ahora?";
+"NoEmailConfig_Loc" = "su_email@dominio.com";
+"No_Loc" = "No";
+"Yes_Loc" = "Si";
+"Delete_Loc" = "Eliminar";
+
+"AutoDelete_Loc" = "Eliminar las tareas finalizadas cuando salir";
+
+"AutoDel_Loc" = "Borrado Automatico";
+"Badge_Loc" = "Ícono de la Aplicación";
+"Show_Loc" = "Mostrar";
+
+"version_Loc" = "Version";
+"Done_Loc" = "Finalizada!";
+
+"Sort_Loc" = "Ordenar Tareas";
+"ByDate_Loc" = "Por Fecha";
+"ByPriority_Loc" = "Por Prioridad";
+"ByChar_Loc" = "Por Nombre";
+"Original_Loc" = "Sin Clasificación";
+
+"AllTasks_Loc" = "Todas Pendientes";
+"Completed_Loc" = "Finalizadas";
+"Completed2_Loc" = "Finalizada";
+
+"Cat1_Loc" = "Casa";
+"Cat2_Loc" = "Trabajo";
+"Cat3_Loc" = "Amigos";
+
+"PlusWeek_Loc" = "+Semana";
+"PlusMonth_Loc" = "+Mes";
+"PlusYear_Loc" = "+Año";
+
+"NoTask_Loc" = "Ninguna Tarea";
+"NoTodayTask_Loc" = "Ninguna Tarea para Hoy";
+"NoOverdueTask_Loc" = "Ninguna Tarea Vencida";
+"NoCompletedTask_Loc" = "Ninguna Tarea Finalizada";
+"NoListTask_Loc" = "Ninguna Tarea na Lista %@";
+
+"NoBadge_Loc" = "Ninguna";
+"OverBadge_Loc" = "Vencidas";
+"TodayBadge_Loc" = "Hoy";
+"WeekBadge_Loc" = "Próximos 7 días";
+"OverToday_Loc" = "Vencidas + Hoy";
+"OverWeek_Loc" = "Vencidas + Próximos 7 días";
+"AllActive_Loc" = "Todas Pendientes";
+
+"Migration_Loc" = "Migración de tareas de la versión anterior...";
+
+"NewList_Loc" = "Nueva Lista";
+"EditList_Loc" = "Editar Lista";
+"DoneOn_Loc" = "Finalizada en ";
+
+"AlertTitle_Loc" = "Atención!";
+"AlertMessage_Loc" = "Usted está utilizando una versión pirata de Tarefas. Por favor, visite la App Store para comprar la versión original de la aplicación.";
+"AlertButton_Loc" = "Compre Ahora";
+
+"NoTitle_Loc" = "Tarea Sin Nombre";
+"ImportMSG_Loc" = "Espere!\nImportando Tareas...";

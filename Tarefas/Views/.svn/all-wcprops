@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/Tarefas/!svn/ver/4/trunk/Views
+END
+BaseView.m
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/Tarefas/!svn/ver/4/trunk/Views/BaseView.m
+END
+ButtonCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/Tarefas/!svn/ver/4/trunk/Views/ButtonCell.h
+END
+LoadingView.m
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/Tarefas/!svn/ver/4/trunk/Views/LoadingView.m
+END
+NotesTextView.m
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/Tarefas/!svn/ver/4/trunk/Views/NotesTextView.m
+END
+ButtonCell.m
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/Tarefas/!svn/ver/4/trunk/Views/ButtonCell.m
+END
+BaseView.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/Tarefas/!svn/ver/4/trunk/Views/BaseView.h
+END
+LoadingView.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/Tarefas/!svn/ver/4/trunk/Views/LoadingView.h
+END
+NotesTextView.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/Tarefas/!svn/ver/4/trunk/Views/NotesTextView.h
+END

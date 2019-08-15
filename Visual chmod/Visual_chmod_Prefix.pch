@@ -1,0 +1,9 @@
+//
+// Prefix header for all source files of the 'Visual chmod' target in the 'Visual chmod' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+	#import "anticrack.h"
+#endif
